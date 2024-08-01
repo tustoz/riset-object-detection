@@ -102,7 +102,7 @@ def main(_):
     output_path = os.path.join(os.getcwd(), FLAGS.output_path)
     print('Successfully created the TFRecords: {}'.format(output_path))
 
-    # Create labelmap.pbtxt file
+    # Create labelmap.pbtxt files
     path_to_labeltxt = os.path.join(os.getcwd(), FLAGS.labelmap)
     with open(path_to_labeltxt, 'r') as f:
         labels = [line.strip() for line in f.readlines()]
