@@ -1,6 +1,3 @@
-# Randomly splits images to 80% train, 10% validation, and 10% test, and moves them to their respective folders.
-# Originally from GitHub user EdjeElectronics: https://github.com/EdjeElectronics/TensorFlow-Lite-Object-Detection-on-Android-and-Raspberry-Pi/blob/master/util_scripts/train_val_test_split.py
-
 from pathlib import Path
 import random
 import os
